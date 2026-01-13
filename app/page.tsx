@@ -13,6 +13,9 @@ export default function Home() {
             PennyPips
           </h1>
           <div className="w-24 h-1 bg-accent mx-auto rounded-full"></div>
+          <p className="mt-6 text-lg text-gray-400">
+            access to all my free resources below
+          </p>
         </div>
 
         {/* Scroll Indicator */}
