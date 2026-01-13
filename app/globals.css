@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent: #0781fe;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  color: white;
+  overflow-x: hidden;
+}
+
+@layer utilities {
+  .glow-accent {
+    box-shadow: 0 0 20px rgba(7, 129, 254, 0.3);
+  }
+  
+  .glow-accent-hover:hover {
+    box-shadow: 0 0 30px rgba(7, 129, 254, 0.5);
+  }
+}
